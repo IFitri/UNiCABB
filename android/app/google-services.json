@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "190636760184",
+    "firebase_url": "https://unicab-642bf-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "unicab-642bf",
+    "storage_bucket": "unicab-642bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190636760184:android:7280f9c080f117796aa18d",
+        "android_client_info": {
+          "package_name": "com.farad.drivers_interface"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9HjizcRXna1S6wQxasBZbesW0r_438_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190636760184:android:75eb539185be4e9e6aa18d",
+        "android_client_info": {
+          "package_name": "com.farad.users_interface"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9HjizcRXna1S6wQxasBZbesW0r_438_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

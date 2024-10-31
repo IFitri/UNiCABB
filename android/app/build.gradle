@@ -1,0 +1,49 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace = "com.farad.users_interface"
+    compileSdk = 34  // Replace with your compile SDK version
+
+    ndkVersion = "26.1.10909125"
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_9
+        targetCompatibility = JavaVersion.VERSION_1_9
+    }
+
+    kotlinOptions {
+        jvmTarget = "9"
+    }
+
+    defaultConfig {
+        applicationId = "com.farad.users_interface"
+        minSdk = 34
+        targetSdk = 34  // Replace with your desired target SDK version
+        versionCode = 1  // Set your version code
+        versionName = "1.0"  // Set your version name
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false  // Disable if you don’t need shrinking
+            shrinkResources false  // Disable if you don’t need resource shrinking
+            signingConfig = signingConfigs.debug  // Use your signing config for production
+        }
+    }
+}
+
+flutter {
+    source = "../.."
+}
+
+dependencies {
+    // Add other dependencies as necessary
+}
+
+// Apply the Google Services plugin for Firebase configuration
+apply plugin: "com.google.gms.google-services"
